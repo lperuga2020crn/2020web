@@ -1,0 +1,121 @@
+ body{
+   margin: 0;
+   font-family: arial;
+ }
+
+div{
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+li{
+  display: inline-block;
+  height: 30px;
+  margin: 0;
+  padding: 5px;
+  line-height: 30px;
+}
+
+li:hover{
+  background-color: darkseagreen;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, p{
+  width: 350px;
+  padding: 25px;
+}
+
+h1{
+ margin: 0;
+}
+
+p{
+  padding: 0 25px;
+  margin: 0;
+}
+
+
+#primera{
+height: 40px;
+}
+
+#segona{
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+}
+
+#tercera{
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+}
+
+#quarta{
+  height: 500px;
+  background-image: url(img/curator-short.png);
+}
+
+#cinquena{
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+}
+
+#sisena{
+  height: 550px;
+  background-image: url(img/mobile-share.png);
+}
+
+#setena{
+  height: 643px;
+  background-image: url(img/anywhere.png);
+}
+
+#vuitena{
+  height: 200px;
+  text-align: center;
+}
+
+#boto{
+  /*--DIMENSIONS----*/
+  height: 70px;
+  width: 70px;
+  /*--POSICIONAMENT----*/
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  /*--TEXT----*/
+  text-align: center;
+  line-height: 85px;
+  font-size: 40px;
+  color: white;
+  /*--CAIXA----*/
+  border-radius: 35px;
+  box-shadow: 1px 1px 9px black;
+  background: url(img/sources.png);
+  background-position: -228px -18px;
+  opacity: 0.9;
+}
+
+img{
+  padding: 25px;
+}
+
+.blanc{
+  background-color: #FFF;
+}
+
+.verd{
+  background-color: #6c3;
+}
+
+.fosc{
+  background-color: #333;
+}
+
+.gris{
+  background-color: #EEECEE;
+}
