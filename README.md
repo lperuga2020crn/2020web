@@ -1,2 +1,2 @@
 # 2020web
-Fitxer de clases de web
+Fitxer de classes de web
