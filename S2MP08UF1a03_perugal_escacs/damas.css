@@ -1,0 +1,52 @@
+div{
+  height: 800px;
+  width: 800px;
+  background-color:#BDB78B;
+  margin: 0 auto;
+  //background-image: linear-gradient(0deg, blue 0%, blue 50%, turquoise 50%);
+  padding: 20px;
+}
+
+p{
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  float: left;
+}
+
+.impar{
+  background-color: beige;
+}
+
+.par{
+  background-color: saddlebrown;
+}
+
+b{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: black;
+  margin: 10px;
+  background-image: radial-gradient(dimgrey 0%, dimgrey 45%, black 100%);
+}
+
+b:hover{
+  position: relative;
+  top: 100px;
+}
+
+.impar b{
+  background-image: radial-gradient(black 0%, black 45%, dimgrey 100%);
+}
+
+a{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: black;
+  margin: 10px;
+  background-image: radial-gradient(navajowhite 0%, navajowhite 45%, peru 100%);
+}
